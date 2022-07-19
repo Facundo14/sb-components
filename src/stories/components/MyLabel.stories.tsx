@@ -9,6 +9,7 @@ export default {
         size: { control: 'select' },
         color: { control: 'select' },
         fontColor: { control: 'color' },
+        backgroundColor: { control: 'color' },
     }
 } as ComponentMeta<typeof MyLabel>
 
@@ -47,3 +48,9 @@ CustomFormColor.args = {
 }
 // Custom Form color
 // font color
+
+export const CustomBackgroundColor = Template.bind({})
+CustomBackgroundColor.args = {
+    size: 'h1',
+    backgroundColor: '#ff0000'
+}
