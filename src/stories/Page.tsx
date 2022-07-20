@@ -70,3 +70,6 @@ export const Page: VFC = () => {
     </article>
   );
 };
+
+
+export default Page;
